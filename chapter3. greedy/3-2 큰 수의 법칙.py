@@ -1,6 +1,5 @@
 def add_max():
-    """
-    N:리스트 크기, M:더하기 횟수, K:특정 인덱스 연속 더하기
+    """N:리스트 크기, M:더하기 횟수, K:특정 인덱스 연속 더하기
     """
     N, M, K = map(int, input().split())
     array = list(map(int, input().split()))
