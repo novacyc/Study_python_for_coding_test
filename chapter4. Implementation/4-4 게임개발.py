@@ -48,6 +48,7 @@ def game():
                 if inf[next_x][next_y] == 1:
                     print()
                     break;
+                #뒤로 가는건, 그냥 왼쪽으로 한 번 더 가면 된다. 좌에서 좌회전하면 뒤
                 else:
                     x,y = next_x, next_y
 
